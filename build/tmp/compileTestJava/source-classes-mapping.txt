@@ -1,0 +1,12 @@
+com/earlyretirement/domain/RetirementCalculator/RetirementCalculatorImplTest.java
+ com.earlyretirement.domain.RetirementCalculator.RetirementCalculatorImplTest
+com/earlyretirement/web/HelloControllerTest.java
+ com.earlyretirement.web.HelloControllerTest
+com/earlyretirement/domain/posts/PostsRepositoryTest.java
+ com.earlyretirement.domain.posts.PostsRepositoryTest
+com/earlyretirement/web/dto/staticImportTest.java
+ com.earlyretirement.web.dto.staticImportTest
+com/earlyretirement/web/dto/HelloResponseDtoTest.java
+ com.earlyretirement.web.dto.HelloResponseDtoTest
+com/earlyretirement/web/PostsApiControllerTest.java
+ com.earlyretirement.web.PostsApiControllerTest
