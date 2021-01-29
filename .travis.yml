@@ -1,8 +1,8 @@
 language: java
 jdk:
-  - openjdk11
+  - openjdk8
 
-branches: 
+branches:
   only:
     - master
 
@@ -12,10 +12,13 @@ cache:
     - '$HOME/.m2/repository'
     - '$HOME/.gradle'
 
+before_install:
+  - chmod +x gradlew
+
 script: "./gradlew clean build"
 
 # CI 실행 완료 시 메일로 알람
-notification:
+notifications:
   email:
     recipients:
       - tlatmdcjf94@gmail.com
