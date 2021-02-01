@@ -17,8 +17,22 @@ before_install:
 
 script: "./gradlew clean build"
 
+befor_deploy:
+  - zip -r retirement-calculator-sprinboot-webservice *
+  - mkdir -p deploy
+  - mv retirement-calculator-sprinboot-webservice.zip deploy/retirement-calculator-sprinboot-webservice.zip
+deploy:
+  - provider : s3
+    access_key_id: $AWS_ACCESS_KEY # Travis repo settings에 설정된 값
+    secret_access_key: $AWS_SECRET_KEY # Travis repo settings에 설정된 값
+    bucket: retirement-calculator-build
+    region: ap-northeast-2
+    skip_cleanup: true
+    acl: private # private으로 zip 파일 접근
+    local_dir: deploy # before_deploy에서 생성한 디렉토리
+    wait-until-deployed: true
 # CI 실행 완료 시 메일로 알람
 notifications:
   email:
     recipients:
-      - tlatmdcjf94@gmail.com
+      - 본인 이메일
