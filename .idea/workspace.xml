@@ -7,6 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8692b23b-e65f-4365-ab2a-156853ce61b6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/classAnalysis.bin" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
     </list>
@@ -227,10 +228,10 @@
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
     <state x="285" y="129" key="#PostsRepositoryTest.게시글저장_불러오기/0.25.1680.1025@0.25.1680.1025" timestamp="1610787166315" />
-    <state x="702" y="210" key="#Project_Structure" timestamp="1610871753189">
+    <state x="702" y="210" key="#Project_Structure" timestamp="1611961790979">
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
-    <state x="702" y="210" key="#Project_Structure/0.25.1680.1025@0.25.1680.1025" timestamp="1610871753189" />
+    <state x="702" y="210" key="#Project_Structure/0.25.1680.1025@0.25.1680.1025" timestamp="1611961790979" />
     <state x="277" y="251" key="#com.intellij.ide.util.MemberChooser" timestamp="1610501484533">
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
@@ -291,9 +292,9 @@
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
     <state x="1006" y="433" width="674" height="486" key="find.popup/0.25.1680.1025@0.25.1680.1025" timestamp="1610787090034" />
-    <state x="721" y="374" width="670" height="676" key="search.everywhere.popup" timestamp="1610852589008">
+    <state x="721" y="374" width="670" height="676" key="search.everywhere.popup" timestamp="1612216657204">
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
-    <state x="721" y="374" width="670" height="676" key="search.everywhere.popup/0.25.1680.1025@0.25.1680.1025" timestamp="1610852589008" />
+    <state x="721" y="374" width="670" height="676" key="search.everywhere.popup/0.25.1680.1025@0.25.1680.1025" timestamp="1612216657204" />
   </component>
 </project>
