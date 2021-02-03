@@ -18,9 +18,9 @@ before_install:
 script: "./gradlew clean build"
 
 befor_deploy:
-  - zip -r retirement-calculator-sprinboot-webservice *
+  - zip -r retirement-calculator *
   - mkdir -p deploy
-  - mv retirement-calculator-sprinboot-webservice.zip deploy/retirement-calculator-sprinboot-webservice.zip
+  - mv retirement-calculator.zip deploy/retirement-calculator.zip
 deploy:
   - provider : s3
     access_key_id: $AWS_ACCESS_KEY # Travis repo settings에 설정된 값
