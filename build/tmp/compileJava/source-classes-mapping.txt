@@ -10,8 +10,8 @@ com/retirementcalculator/web/dto/HelloResponseDto.java
 com/retirementcalculator/web/dto/PostsSaveRequestDto.java
  com.retirementcalculator.web.dto.PostsSaveRequestDto
  com.retirementcalculator.web.dto.PostsSaveRequestDto$PostsSaveRequestDtoBuilder
-com/retirementcalculator/web/HelloController.java
- com.retirementcalculator.web.HelloController
+com/retirementcalculator/service/posts/PostsService.java
+ com.retirementcalculator.service.posts.PostsService
 com/retirementcalculator/domain/RetirementCalculator/Gender.java
  com.retirementcalculator.domain.RetirementCalculator.Gender
 com/retirementcalculator/web/dto/PostsUpdateRequestDto.java
@@ -27,5 +27,5 @@ com/retirementcalculator/web/dto/PostsResponseDto.java
  com.retirementcalculator.web.dto.PostsResponseDto
 com/retirementcalculator/Application.java
  com.retirementcalculator.Application
-com/retirementcalculator/service/posts/PostsService.java
- com.retirementcalculator.service.posts.PostsService
+com/retirementcalculator/web/HelloController.java
+ com.retirementcalculator.web.HelloController

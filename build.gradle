@@ -31,8 +31,8 @@ repositories {
 }
 
 bootJar{
-    archivesBaseName = '원하는이름'
-    archiveFileName = '원하는이름.jar'
+    archivesBaseName = 'retirement-calculator'
+    archiveFileName = 'retirement-calculator.jar'
     archiveVersion = "0.0.0"
 }
 
